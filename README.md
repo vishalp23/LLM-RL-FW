@@ -32,8 +32,8 @@ Traditional RL algorithms (PPO, DQN, etc.) require extensive training to learn p
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/LLM-RL-framework.git
-cd LLM-RL-framework
+git clone https://github.com/vishalp23/LLM-RL-FW.git
+cd LLM-RL-FW
 
 # Install Python packages
 pip install -r requirements.txt
@@ -379,7 +379,7 @@ If you use this framework in your research, please cite:
   title = {LLM-RL Framework: Exploring LLMs as RL Policy Generators},
   author = {LLM-RL Framework Contributors},
   year = {2024},
-  url = {https://github.com/yourusername/LLM-RL-framework}
+  url = {https://github.com/vishalp23/LLM-RL-FW.git}
 }
 ```
 
@@ -397,8 +397,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 For questions, issues, or discussions:
-- GitHub Issues: [https://github.com/yourusername/LLM-RL-framework/issues](https://github.com/yourusername/LLM-RL-framework/issues)
-- Email: your.email@example.com
+- GitHub Issues: [https://github.com/vishalp23/LLM-RL-FW.git/issues](https://github.com/vishalp23/LLM-RL-FW.git/issues)
+- Email: vishalp2399@gmail.com
 
 ---
 
