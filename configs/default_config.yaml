@@ -1,0 +1,56 @@
+# Default Configuration for LLM-RL Framework
+
+# LLM Configuration
+llm:
+  model_name: "llama3.2"
+  host: "http://localhost:11434"
+  temperature: 0.7
+  max_tokens: 100
+  timeout: 30
+  max_retries: 3
+  retry_delay: 1
+
+# Agent Configuration
+agent:
+  type: "reflection"  # Options: base, memory, reflection
+
+  # Memory Agent specific
+  memory_size: 10
+  success_threshold: 0.5
+  num_examples: 2
+
+  # Reflection Agent specific
+  reflection_frequency: 5
+  max_reflections: 5
+
+# Environment Configuration
+environment:
+  name: "MiniGrid-Empty-8x8-v0"
+  max_steps: 100
+  render_mode: null  # Options: null, "human", "rgb_array"
+
+  # Task suite
+  difficulty: "easy"  # Options: easy, medium, hard, all
+
+# Evaluation Configuration
+evaluation:
+  num_episodes: 10
+  verbose: true
+  save_results: true
+  results_dir: "results"
+
+# RL Baseline Configuration (for comparison)
+rl_baselines:
+  algorithms:
+    - "PPO"
+    - "DQN"
+    - "A2C"
+  train_timesteps: 100000
+  learning_rate: 0.0003
+  verbose: 0
+
+# Logging Configuration
+logging:
+  enabled: true
+  log_dir: "logs"
+  log_level: "INFO"
